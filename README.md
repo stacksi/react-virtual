@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Visit react-virtual.tanstack.com for docs, guides, API and more!](#visit-react-virtualtanstackcom-for-docs-guides-api-and-more)
+- [Quick Features](#quick-features)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ![React Virtual Header](https://github.com/tannerlinsley/react-virtual/raw/master/media/repo-dark.png)
 
 Hooks for virtualizing scrollable elements in React
