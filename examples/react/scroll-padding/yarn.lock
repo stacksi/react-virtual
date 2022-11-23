@@ -261,11 +261,6 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@reach/observe-rect@^1.1.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@reach/observe-rect/-/observe-rect-1.2.0.tgz#d7a6013b8aafcc64c778a0ccb83355a11204d3b2"
-  integrity sha512-Ba7HmkFgfQxZqqaeIWWkNK0rEhpxVQHIoVyW1YDSkGsGIXzcaW4deC8B0pZrNSSyLTdIk7y+5olKt5+g0GmFIQ==
-
 "@react-hookz/deep-equal@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@react-hookz/deep-equal/-/deep-equal-1.0.2.tgz#4e8bdeda027379dcf8b62a42e5f75f0351b11b35"
@@ -303,12 +298,17 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@tanstack/react-virtual@3.0.0-beta.0":
-  version "3.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@tanstack/react-virtual/-/react-virtual-3.0.0-beta.0.tgz#52872b12fd79216b3ca9584cdbd65cb0d9c2055d"
-  integrity sha512-02x+SfFMY/HrnCqxqRRuTnA5QBWAwVj6TyYm//TKkimYFbaPWdvUviLQGSLBluoYOl/AvzZmczF+soQuLomYHQ==
+"@tanstack/react-virtual@3.0.0-beta.23":
+  version "3.0.0-beta.23"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-virtual/-/react-virtual-3.0.0-beta.23.tgz#f3d3e049d6b49e2b91c46ec3d35f48d9fdf7426a"
+  integrity sha512-FurqZJD7oSXLtL5NP0YQKXNEY+2qczXjzxmxkD51ZO8ykyr2z62IRNfvpOyly2CPLg+M346mA/Ul2hlx4R3KPw==
   dependencies:
-    "@reach/observe-rect" "^1.1.0"
+    "@tanstack/virtual-core" "3.0.0-beta.23"
+
+"@tanstack/virtual-core@3.0.0-beta.23":
+  version "3.0.0-beta.23"
+  resolved "https://registry.yarnpkg.com/@tanstack/virtual-core/-/virtual-core-3.0.0-beta.23.tgz#2e586256bdb239e35c8d1ca4e8d66c1c55151419"
+  integrity sha512-xQfJgz4mdaxifPjOqUBYAar60UAQTrED2SpS0VI5AZvxYI4NDTxx5cFrjaP4baKY3UnVc8IsGFbqr8Q/LZNMag==
 
 "@types/estree@0.0.39":
   version "0.0.39"
@@ -609,9 +609,9 @@ magic-string@^0.25.7:
     sourcemap-codec "^1.4.4"
 
 minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
+  integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
 ms@2.1.2:
   version "2.1.2"
